@@ -17,6 +17,9 @@ multipurpose_modmap("multipurpose modmap",
 
 modmap("Global Modmap",
     {
+        # no gnome activities
+        Key.RIGHT_META: Key.LEFT_META,
+
         # remapped in firmware :D (except Fn)
         # Key.LEFT_ALT:   Key.LEFT_META,  # Left Alt is Left Command (Meta/Cmd in Linux)
         # Key.LEFT_META:  Key.LEFT_ALT,   # Left Meta is Left Option (Alt in linux)
